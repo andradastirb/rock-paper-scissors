@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Play Rock-Paper-Scissors</title>
+  </head>
+  <body>
+    <div class="container2">
+      <div class="options">
+        <input
+          type="image"
+          class="img"
+          id="rock"
+          alt="Rock"
+          src="/assets/rock.jpg"
+        />
+        <input
+          type="image"
+          class="img"
+          id="paper"
+          alt="Paper"
+          src="/assets/paper.jpg"
+        />
+        <input
+          type="image"
+          class="img"
+          id="scissors"
+          alt="Scissors"
+          src="/assets/scissors.jpg"
+        />
+      </div>
+
+      <div class="option-box">
+        <div class="my-option"></div>
+        <div class="comp-option"></div>
+      </div>
+
+      <div class="score">
+        <div class="score-box">
+          <h2>Score</h2>
+
+          <div class="setscore">
+            <div class="myScore">
+              <h3>You</h3>
+              <p class="my-count">0</p>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="computerScore">
+              <h3>Computer</h3>
+              <p class="computer-count">0</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="result"></div>
+
+        <button class="reset"></button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>
